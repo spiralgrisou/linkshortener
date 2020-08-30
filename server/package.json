@@ -1,0 +1,25 @@
+{
+  "name": "spi",
+  "version": "1.0.0",
+  "description": "A link shortener for the web",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "spiralgrisou",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^4.1.0",
+    "monk": "^7.3.1",
+    "morgan": "^1.10.0",
+    "nanoid": "^3.1.12",
+    "yup": "^0.29.3"
+  },
+  "devDependencies": {
+    "dotnet": "^1.1.4",
+    "nodemon": "^2.0.4"
+  }
+}
